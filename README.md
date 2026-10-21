@@ -1,0 +1,11 @@
+# DSH VoltAgent Skills
+
+The entire current [VoltAgent Awesome Agent Skills directory](https://github.com/VoltAgent/awesome-agent-skills) as a standalone DeepSeek Harness skill-provider plugin. This snapshot contains 1,151 distinct linked entries (the upstream badge is not an exact count of directly listed entries).
+
+Install this GitHub repository using DSH Plugins, or `dsh plugin --profile web add <repository-url> --config.ignore-scripts=true`. No Harness source changes or another custom plugin are required. The plugin uses the public `ctx.skills.registerProvider` and `ctx.tools.register` hooks. Its names start with `va-` and include source-derived suffixes so existing local skills are not replaced.
+
+The whole directory is immediately searchable with `voltagent_skills` or the existing DSH skill discovery. Full instructions are downloaded from the linked upstream source on first selection and cached under `$DSH_HOME/dsh-voltagent-skills/cache`; subsequent loads can use the cached copy offline. Relative resource links point back to the original source directory. Scripts, MCP servers, credentials, models and package runtimes are **not** installed or executed by loading guidance. Some directory entries are collections or external gated resources rather than directly loadable SKILL.md files; these remain searchable and report their original source if a body cannot be loaded. This is a complete catalog integration, not a claim that every external backend is installed.
+
+The snapshot includes compact metadata and source attribution. Upstream retains copyright/license ownership of individual skill bodies. The VoltAgent directory license is preserved in `data/UPSTREAM-LICENSE`; loaded instructions retain their original source URL. `node scripts/update-catalog.js` refreshes the snapshot explicitly; the provider does not download the directory on every model step. Review changes before publishing a refreshed snapshot.
+
+Set plugin `enabled: false` to disable the provider; `cacheDir` overrides its cache directory. Unloading the plugin removes its registrations and preserves the cache. Cancellation, HTTPS, response-size limits, finite network deadlines and strict source resolution bound loads. The plugin does not bypass normal DSH tool permissions or treat frontmatter allowed-tools declarations as permission grants.

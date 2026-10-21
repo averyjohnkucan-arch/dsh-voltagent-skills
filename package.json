@@ -1,0 +1,45 @@
+{
+  "name": "dsh-voltagent-skills",
+  "version": "0.1.0",
+  "description": "The VoltAgent Awesome Agent Skills catalog as an on-demand DSH skill provider.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "data",
+    "scripts",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.19",
+    "dsh": "0.2.1-rc.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/averyjohnkucan-arch/dsh-voltagent-skills.git"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "catalog:update": "node scripts/update-catalog.js"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.5",
+    "@deepseek-ai/dsh-skill": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-tools": "0.2.1-rc.2",
+    "@deepseek-ai/schemastery": "~3.18.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-system-prompt": "0.2.1-rc.2"
+  }
+}
