@@ -1,0 +1,130 @@
+{
+  "getsentry": {
+    "repo": "getsentry/sentry-for-ai",
+    "verifiedAt": "https://officialskills.sh/getsentry/skills/sentry-sdk-setup"
+  },
+  "vercel-labs": {
+    "repo": "vercel-labs/next-skills",
+    "verifiedAt": "https://officialskills.sh/vercel-labs/skills/next-best-practices"
+  },
+  "makenotion": {
+    "repo": "makenotion/notion-cookbook",
+    "verifiedAt": "https://officialskills.sh/makenotion/skills/knowledge-capture"
+  },
+  "firebase": {
+    "repo": "firebase/agent-skills",
+    "verifiedAt": "https://officialskills.sh/firebase/skills/developing-genkit-dart"
+  },
+  "crawlbase": {
+    "repo": "crawlbase/crawlbase-codex-plugin",
+    "verifiedAt": "https://officialskills.sh/crawlbase/skills/crawl-html"
+  },
+  "supabase": {
+    "repo": "supabase/agent-skills",
+    "verifiedAt": "https://officialskills.sh/supabase/skills/postgres-best-practices"
+  },
+  "google-gemini": {
+    "repo": "google-gemini/gemini-skills",
+    "verifiedAt": "https://officialskills.sh/google-gemini/skills/gemini-api-dev"
+  },
+  "stripe": {
+    "repo": "stripe/ai",
+    "verifiedAt": "https://officialskills.sh/stripe/skills/stripe-best-practices"
+  },
+  "callstackincubator": {
+    "repo": "callstackincubator/agent-skills",
+    "verifiedAt": "https://officialskills.sh/callstackincubator/skills/react-native-best-practices"
+  },
+  "tinybirdco": {
+    "repo": "tinybirdco/tinybird-agent-skills",
+    "verifiedAt": "https://officialskills.sh/tinybirdco/skills/tinybird-best-practices"
+  },
+  "hashicorp": {
+    "repo": "hashicorp/agent-skills",
+    "verifiedAt": "https://officialskills.sh/hashicorp/skills/azure-verified-modules"
+  },
+  "sanity-io": {
+    "repo": "sanity-io/agent-toolkit",
+    "verifiedAt": "https://officialskills.sh/sanity-io/skills/sanity-best-practices"
+  },
+  "neondatabase": {
+    "repo": "neondatabase/agent-skills",
+    "verifiedAt": "https://officialskills.sh/neondatabase/skills/neon-postgres"
+  },
+  "clickhouse": {
+    "repo": "ClickHouse/agent-skills",
+    "verifiedAt": "https://officialskills.sh/clickhouse/skills/clickhouse-best-practices"
+  },
+  "typefully": {
+    "repo": "typefully/agent-skills",
+    "verifiedAt": "https://officialskills.sh/typefully/skills/typefully"
+  },
+  "netlify": {
+    "repo": "netlify/context-and-tools",
+    "verifiedAt": "https://officialskills.sh/netlify/skills/netlify-functions"
+  },
+  "google-labs-code": {
+    "repo": "google-labs-code/design-md",
+    "skills": {
+      "design-md": "google-labs-code/design-md",
+      "enhance-prompt": "google-labs-code/enhance-prompt",
+      "react-components": "google-labs-code/react-components",
+      "remotion": "google-labs-code/remotion",
+      "shadcn-ui": "google-labs-code/shadcn-ui",
+      "stitch-loop": "google-labs-code/stitch-loop"
+    },
+    "verifiedAt": "https://officialskills.sh/google-labs-code/skills/design-md"
+  },
+  "figma": {
+    "repo": "figma/mcp-server-guide",
+    "verifiedAt": "https://officialskills.sh/figma/skills/figma-code-connect-components"
+  },
+  "binance": {
+    "repo": "binance/binance-skills-hub",
+    "verifiedAt": "https://officialskills.sh/binance/skills/crypto-market-rank"
+  },
+  "auth0": {
+    "repo": "auth0/agent-skills",
+    "verifiedAt": "https://officialskills.sh/auth0/skills/auth0-android"
+  },
+  "brave": {
+    "repo": "brave/brave-search-skills",
+    "verifiedAt": "https://officialskills.sh/brave/skills/answers"
+  },
+  "coinbase": {
+    "repo": "coinbase/agentic-wallet-skills",
+    "verifiedAt": "https://officialskills.sh/coinbase/skills/authenticate-wallet"
+  },
+  "datadog-labs": {
+    "repo": "datadog-labs/agent-skills",
+    "verifiedAt": "https://officialskills.sh/datadog-labs/skills/dd-apm"
+  },
+  "duckdb": {
+    "repo": "duckdb/duckdb-skills",
+    "verifiedAt": "https://officialskills.sh/duckdb/skills/attach-db"
+  },
+  "greensock": {
+    "repo": "greensock/gsap-skills",
+    "verifiedAt": "https://officialskills.sh/greensock/skills/gsap-core"
+  },
+  "garrytan": {
+    "repo": "garrytan/gstack",
+    "verifiedAt": "https://officialskills.sh/garrytan/skills/office-hours"
+  },
+  "addyosmani": {
+    "repo": "addyosmani/web-quality-skills",
+    "verifiedAt": "https://officialskills.sh/addyosmani/skills/web-quality-audit"
+  },
+  "mongodb": {
+    "repo": "mongodb/agent-skills",
+    "verifiedAt": "https://officialskills.sh/mongodb/skills/mongodb-mcp-setup"
+  },
+  "WordPress": {
+    "repo": "WordPress/agent-skills",
+    "verifiedAt": "https://officialskills.sh/WordPress/skills/wordpress-router"
+  },
+  "googleworkspace": {
+    "repo": "googleworkspace/cli",
+    "verifiedAt": "https://officialskills.sh/googleworkspace/skills/gws-shared"
+  }
+}
