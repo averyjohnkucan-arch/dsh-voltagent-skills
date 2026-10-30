@@ -1,6 +1,6 @@
 {
   "name": "dsh-voltagent-skills",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Downloaded VoltAgent and Story Skills libraries served locally through DSH's skill registry.",
   "type": "module",
   "license": "MIT",
@@ -18,7 +18,7 @@
   ],
   "engines": {
     "node": ">=22.19",
-    "dsh": "0.2.1-rc.2"
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
   },
   "repository": {
     "type": "git",
@@ -27,12 +27,13 @@
   "scripts": {
     "test": "node --test test/*.test.js && python3 -B test/download-library.test.py",
     "catalog:update": "node scripts/update-catalog.js",
-    "library:download": "python3 scripts/download-library.py"
+    "library:download": "python3 scripts/download-library.py",
+    "check:dsh": "node scripts/check-dsh-compatibility.mjs"
   },
   "peerDependencies": {
     "@deepseek-ai/cordis": "~4.0.5",
-    "@deepseek-ai/dsh-skill": "0.2.1-rc.2",
-    "@deepseek-ai/dsh-tools": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-skill": ">=0.2.1-rc.2 <0.3.0-0",
+    "@deepseek-ai/dsh-tools": ">=0.2.1-rc.2 <0.3.0-0",
     "@deepseek-ai/schemastery": "~3.18.5"
   },
   "dsh": {

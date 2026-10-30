@@ -13,3 +13,5 @@ The public `agent/pre-step` hook bounds this plugin's model-facing catalog to 24
 Story Skills includes all 24 workflows and its companion Node CLI. Loaded Story Skills include the exact local CLI path. Use the ordinary workspace-authorized shell tool; no `npx` download is needed. Instructions grant no extra permissions. A skill referring to a cloud service still requires that service; downloading guidance does not make an external API local or install arbitrary model weights/dependencies.
 
 Upstream copyrights and licenses remain with each source. The VoltAgent snapshot and license are in `data/`. `npm run catalog:update` refreshes metadata explicitly; rerun the downloader to materialize new sources. This plugin does not publish changes to GitHub.
+
+See [COMPATIBILITY.md](COMPATIBILITY.md) for supported DSH versions and upgrade checks.
