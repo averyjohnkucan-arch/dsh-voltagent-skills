@@ -1,5 +1,7 @@
 # DSH Local Skills Library
 
+**RC4 installation trial.** Start DeepSeek Harness with `npx @deepseek-ai/dsh@0.2.2-rc.4 web` (Node.js 24.9 or newer). In **Plugins → Add plugin**, paste the full path to this RC4 trial’s `.tgz` file and enable the plugin.
+
 The VoltAgent Awesome Agent Skills directory plus `danjdewhurst/story-skills`, downloaded onto disk and exposed through DSH's public `ctx.skills.registerProvider` and `ctx.tools.register` hooks. No Harness source changes are required.
 
 Install this plugin as a local path with DSH Plugins. Run `npm run library:download` from the plugin directory to download the catalog's publicly accessible GitHub repositories and the complete Story Skills package. This explicit maintenance command never runs repository setup scripts, package lifecycle hooks, or downloaded instructions. Completed snapshots are reused. `--repo owner/repository` restricts a download pass while retaining other existing snapshots.
